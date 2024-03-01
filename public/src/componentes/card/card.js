@@ -10,7 +10,7 @@ static get ObservedAttributes (){
   return ['image', 'name', 'genre'];
 }
 
-connectedCallback(){
+connectedCallBack(){
   this.render();
 }
 
